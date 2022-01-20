@@ -1,10 +1,28 @@
 .cards {
-  padding: 4rem;
-  background: #fff;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background: #fff;
 }
 
 h1 {
   text-align: center;
+}
+
+.content-title
+{
+    font: normal normal normal 4.5rem helvetica-w01-bold,helvetica-w02-bold,helvetica-lt-w10-bold,sans-serif;
+    color: rgb(221, 109, 109);
+    text-align: center;
+    margin: 0px 0px 30px;
+    margin-top: 5%;
+}
+
+.full
+{
+    width: 10%;
+    margin: auto;
 }
 
 .cards__container {
@@ -94,9 +112,10 @@ h1 {
 }
 
 .cards__item__text {
-  color: #252e48;
-  font-size: 18px;
-  line-height: 24px;
+    font: normal normal normal 4.5rem helvetica-w01-bold,helvetica-w02-bold,helvetica-lt-w10-bold,sans-serif;
+    color: #252e48;
+    font-size: 1.75rem;
+    line-height: 24px;
 }
 
 @media only screen and (min-width: 1200px) {
