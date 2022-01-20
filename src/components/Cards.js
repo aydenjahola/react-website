@@ -12,19 +12,19 @@ function Cards() {
                     <ul className='cards__items'>
                         <CardItem
                             src='images/mail.jpg'
-                            text='We offer webmail services for all members of our society.'
+                            text='We offer mail services for all members of the society.'
                             label='Mail'
                             path='/services'
                         />
                         <CardItem
                             src='images/hosting.jpg'
-                            text='Host your own website on domains provided by us.'
+                            text='Host your own website on a subdomain of Redbrick, or bring your own!'
                             label='Hosting'
                             path='/services'
                         />
                         <CardItem
                             src='images/learning.jpg'
-                            text='Learn a variety of programming languages.'
+                            text='Our servers have all the compilers and interpreters you need to learn new languages.'
                             label='Learning'
                             path='/services'
                         />
