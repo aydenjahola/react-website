@@ -1,18 +1,22 @@
 import React from 'react';
-import '../../App.css';
+import './About.css';
 import '../Cards.css';
 import CardItem from '../CardItem';
 import { Link } from 'react-router-dom';
 
 export default function About() {
+
     return (
-        <div id="about">
-            <div id="header">
-                <h1 className="about-header"></h1>
+        <>
+            <div class="header">
+                <img src="images/about.jpg" alt="Flying Kites" className="header-image" />
+                <div class="header-text">
+                    <h1>About Us</h1>
+                </div>
             </div>
             <div id="about-redbrick">
                 <p class="content-title">About Redbrick</p>
-                <hr class="full"></hr><br />
+                <hr class="full"></hr><br /><br />
                 <p class="content-text">Redbrick is <a href="https://www.dcu.ie/" className="redirect-link">DCU's</a> Computer Networking society. We host events for everything computing related this ranges from;
                     how to setup your own website and storing your photos online to System Administration and Computer Programming Tutorials.
                     We also host a number of <Link
@@ -26,7 +30,7 @@ export default function About() {
             <div id="history">
 
                 <p class="content-title">Brief History</p>
-                <hr class="full"></hr><br />
+                <hr class="full"></hr><br /><br />
                 <p class="content-text">In October of 1995 a group of friends started the ball rolling on the idea of a computer network in DCU,
                     run by students for the students. Starting out with a battered 386 PC (dubbed Nurse), bits of borrowed memory, their own cash,
                     and a lot of luck, they went about organising the DCU Networking Society. Once recognised as a society,
@@ -47,89 +51,97 @@ export default function About() {
             <div id="committee">
 
                 <p class="content-title">Committee</p>
-                <hr class="full"></hr><br />
+                <hr class="full"></hr><br /><br />
                 <div className='cards__container'>
                     <div className='cards__wrapper'>
                         <ul className='cards__items'>
                             <CardItem
-                                src='images/img-9.jpg'
+                                src='images/default.png'
                                 text='Chairperson'
                                 label='Cian Kehoe'
                                 path='/contact'
                             />
+                        </ul>
+                        <ul className='cards__items'>
                             <CardItem
                                 src='images/cliodhna.png'
                                 text='Vice-Chairperson'
                                 label='Cliodhna Harrison'
                                 path='/contact'
                             />
+                            <CardItem
+                                src='images/denis.png'
+                                text='Secretary'
+                                label='Denis Flore'
+                                path='/contact'
+                            />
                         </ul>
                         <ul className='cards__items'>
                             <CardItem
-                                src='images/img-3.jpg'
+                                src='images/malachy.png'
                                 text='SysAdmin'
-                                label='Mystery'
+                                label='Malachy Byrne'
                                 path='/contact'
                             />
                             <CardItem
-                                src='images/img-4.jpg'
+                                src='images/james.png'
                                 text='SysAdmin'
-                                label='Adventure'
+                                label='James Hackett'
                                 path='/contact'
                             />
                             <CardItem
-                                src='images/img-8.jpg'
+                                src='images/default.png'
                                 text='SysAdmin'
-                                label='Adrenaline'
+                                label='None'
                                 path='/contact'
                             />
                         </ul>
 
                         <ul className='cards__items'>
                             <CardItem
-                                src='images/img-9.jpg'
+                                src='images/andreea.png'
                                 text='Events Officer'
-                                label='Cian Kehoe'
+                                label='Andreea Rete'
                                 path='/contact'
                             />
                             <CardItem
-                                src='images/cliodhna.png'
+                                src='images/default.png'
                                 text='Events Officer'
-                                label='Cliodhna Harrison'
+                                label='Amy Collins'
                                 path='/contact'
                             />
                         </ul>
                         <ul className='cards__items'>
                             <CardItem
-                                src='images/img-3.jpg'
+                                src='images/magic.png'
                                 text='Treasurer'
-                                label='Mystery'
+                                label='Maciej'
                                 path='/contact'
                             />
                             <CardItem
-                                src='images/img-4.jpg'
+                                src='images/default.png'
                                 text='PRO'
-                                label='Adventure'
+                                label='Ethan'
                                 path='/contact'
                             />
                             <CardItem
-                                src='images/img-8.jpg'
+                                src='images/default.png'
                                 text='Webmaster'
-                                label='Adrenaline'
+                                label='Rahul'
                                 path='/contact'
                             />
                         </ul>
                         <ul className='cards__items'>
                             <CardItem
-                                src='images/img-9.jpg'
+                                src='images/aidan.png'
                                 text='Helpdesk'
-                                label='Cian Kehoe'
+                                label='Aidan Smith'
                                 path='/contact'
                             />
                             <CardItem
-                                src='images/cliodhna.png'
+                                src='images/default.png'
                                 text='Helpdesk'
-                                label='Cliodhna Harrison'
+                                label='Ryan Mc Quillan'
                                 path='/contact'
                             />
                         </ul>
@@ -137,7 +149,7 @@ export default function About() {
                 </div>
             </div>
 
-        </div >
+        </ >
 
     );
 
