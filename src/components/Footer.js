@@ -1,6 +1,5 @@
 import React from 'react';
 import './Footer.css';
-import { Button } from './Button';
 import { Link } from 'react-router-dom';
 
 function Footer() {
@@ -10,10 +9,10 @@ function Footer() {
                 <div className='footer-link-wrapper'>
                     <div class='footer-link-items'>
                         <h2>Follow us on Social Media</h2><br />
-                        <Link to='/'><i class="fab fa-instagram"></i></Link>
-                        <Link to='/'><i class="fab fa-facebook"></i></Link>
-                        <Link to='/'><i class="fab fa-youtube-square"></i></Link>
-                        <Link to='/'><i class="fab fa-twitter-square"></i></Link>
+                        <a href="https://www.instagram.com/redbrickdcu/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/dcuredbrick/"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.youtube.com/channel/UC3DvQVTPHTM6Pgm-bY_N75A"><i class="fab fa-youtube-square"></i></a>
+                        <a href="https://twitter.com/redbrickdcu"><i class="fab fa-twitter-square"></i></a>
                     </div>
                 </div>
             </div>

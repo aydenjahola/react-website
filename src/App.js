@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Navbar from './components/Navbar';
 import './App.css';
 import Home from './components/pages/Home';
@@ -18,6 +18,9 @@ function App() {
         <>
             <div className={darkMode ? 'dark-mode' : 'light-mode'}>
                 <div className='container'>
+                    <div>
+                        <input placeholder='Enter postcode' />
+                    </div>
                     <span style={{ color: darkMode ? 'grey' : '#ffd15c' }}>
                         <i class="far fa-sun"></i>
                     </span>

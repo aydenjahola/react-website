@@ -1,12 +1,14 @@
 import React from 'react';
 import '../../App.css';
-import { Link } from 'react-router-dom';
 
 export default function Contact() {
     return (
         <div id="services">
-            <div id="header">
-                <h1 className="about-header"></h1>
+            <div class="header">
+                <img src="images/contact.jpg" alt="Flying Kites" className="header-image" />
+                <div class="header-text">
+                    <h1>Contact Us</h1>
+                </div>
             </div>
 
             <p class="content-title">Contact Us</p>
@@ -27,7 +29,7 @@ export default function Contact() {
                 You can join the Redbrick Discord server by joining below: <br /> <br />
 
                 <iframe src="https://discord.com/widget?id=568403963595063307&theme=dark" className="discord-widget" allowtransparency="true"
-                    frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+                    frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts" title="Discord Link"></iframe>
             </p>
 
 

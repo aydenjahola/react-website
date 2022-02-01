@@ -48,7 +48,7 @@ const Gallery = () => {
     return (
         <>
             <div class="header">
-                <img src="images/about.jpg" alt="Flying Kites" className="header-image" />
+                <img src="images/gallery-header.jpg" alt="Flying Kites" className="header-image" />
                 <div class="header-text">
                     <h1>Gallery</h1>
                 </div>

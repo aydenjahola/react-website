@@ -5,8 +5,11 @@ import { Link } from 'react-router-dom';
 export default function Services() {
     return (
         <div id="services">
-            <div id="header">
-                <h1 className="about-header"></h1>
+            <div class="header">
+                <img src="images/services.jpg" alt="Flying Kites" className="header-image" />
+                <div class="header-text">
+                    <h1>Services</h1>
+                </div>
             </div>
 
             <p class="content-title">Overview</p>
