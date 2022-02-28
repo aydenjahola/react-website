@@ -4,25 +4,4 @@
     padding-right: 1rem;
 }
 
-.content-title
-{
-    font: normal normal normal 4.5rem helvetica-w01-bold,helvetica-w02-bold,helvetica-lt-w10-bold,sans-serif;
-    color: rgb(221, 109, 109);
-    text-align: center;
-    margin: 0px 0px 30px;
-    margin-top: 5%;
-}
 
-.full
-{
-    width: 10%;
-    margin: auto;
-}
-
-.content-text
-{
-    text-align: center;
-    font-size: 1.5rem;
-    letter-spacing: 0.15rem;
-    line-height: 2.5rem;
-}

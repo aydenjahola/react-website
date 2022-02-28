@@ -9,12 +9,6 @@ h1 {
 }
 
 
-.full
-{
-    width: 10%;
-    margin: auto;
-}
-
 .committee__cards__container {
   display: flex;
   flex-flow: column;
