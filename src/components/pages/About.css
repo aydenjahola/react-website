@@ -12,7 +12,6 @@
 
 
 .header .header-text{
-    z-index: 999;
     margin: 0 auto;
     left: 0;
     right: 0;
@@ -79,12 +78,11 @@
 {
     font-family: 'Source Sans Pro';
     text-align: center;
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     letter-spacing: 0.15rem;
     line-height: 2.5rem;
     margin-left: 15%;
     margin-right: 15%;
-    margin-bottom: 5%;
 }
 
 @media screen and (max-width: 960px) {

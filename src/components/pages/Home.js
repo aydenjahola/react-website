@@ -14,6 +14,7 @@ function Home() {
             <Welcome />
             <Cards />
             <Events />
+            <br /><br /><br />
         </>
     );
 }

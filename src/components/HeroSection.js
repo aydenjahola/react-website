@@ -6,7 +6,7 @@ import './HeroSection.css';
 function HeroSection() {
     return (
         <div class="video-container">
-            <video autoPlay muted loop controls>
+            <video autoPlay muted loop>
                 <source src="videos/video-1.mp4" type="video/mp4" />
             </video>
             <div class="caption">

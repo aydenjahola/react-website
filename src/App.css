@@ -109,7 +109,7 @@ input:checked + .slider:before {
 .content-text-services
 {
     font-family: 'Source Sans Pro';
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     letter-spacing: 0.15rem;
     line-height: 2.5rem;
     margin-left: 15%;

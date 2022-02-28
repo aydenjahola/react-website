@@ -63,12 +63,12 @@
 }
 
 .gallery {
-    -webkit-column-count: 3;
-    -moz-column-count: 3;
-    column-count: 3;
-    -webkit-column-width: 33%;
-    -moz-column-width: 33%;
-    column-width: 33%;
+    -webkit-column-count: 5;
+    -moz-column-count: 5;
+    column-count: 5;
+    -webkit-column-width: 20%;
+    -moz-column-width: 20%;
+    column-width: 20%;
     padding: 0 12px;
 }
 
@@ -150,4 +150,8 @@
     background-color: rgba(0, 0, 0, 0.4);
     color: #ffffff;
     cursor: pointer;
+}
+
+.close-button {
+    z-index: 9999;
 }

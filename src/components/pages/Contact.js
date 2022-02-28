@@ -22,7 +22,7 @@ export default function Contact() {
 
                 <b className="subheading">Contact an Admin</b><br /><br />
 
-                You can email this year's Elected Admin's at <a href="mailto:elected-admins@redbrick.dcu.ie" className='redirect-link'>elected-admins@redbrick.dcu.ie</a>. <br /> <br />
+                You can email this year's Elected Admin's at<br /> <a href="mailto:elected-admins@redbrick.dcu.ie" className='redirect-link'>elected-admins@redbrick.dcu.ie</a>. <br /> <br />
 
                 <b className="subheading">Discord Server</b><br /><br />
 

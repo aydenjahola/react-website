@@ -57,7 +57,7 @@ const Gallery = () => {
             <hr class="full"></hr><br /><br />
             <div className={model ? "model open" : "model"}>
                 <img src={tempimgSrc} />
-                <CloseIcon onClick={() => setModel(false)} />
+                <CloseIcon onClick={() => setModel(false)} className="close-button" />
             </div>
             <div className='gallery'>
                 {data.map((item, index) => {
