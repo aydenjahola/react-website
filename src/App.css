@@ -199,7 +199,7 @@ input:checked + .slider:before {
 @media screen and (max-width: 960px) {
     .full
     {
-        width: 50%;
+        width: 30%;
         margin: auto;
     }    
 }
