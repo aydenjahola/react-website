@@ -14,12 +14,13 @@ import Gallery from './components/pages/Gallery';
 function App() {
 
     const [darkMode, setDarkMode] = React.useState(false);
+
     return (
-        <>
+        <div>
             <div className={darkMode ? 'dark-mode' : 'light-mode'}>
                 <div className='container'>
                     <span style={{ color: darkMode ? 'grey' : '#ffd15c' }}>
-                        <i class="far fa-sun"></i>
+                        <i class="fas fa-sun"></i>
                     </span>
                     <div className="switch-checkbox">
                         <label className="switch">
@@ -28,9 +29,10 @@ function App() {
                         </label>
                     </div>
                     <span style={{ color: darkMode ? '#c96dfd' : 'grey' }}>
-                        <i class="far fa-moon"></i>
+                        <i class="fas fa-moon"></i>
                     </span>
                 </div>
+                {/* Routes to all the pages in the directory */}
                 <Router>
                     <Navbar />
                     <Switch>
@@ -46,15 +48,17 @@ function App() {
                 </Router>
 
             </div>
-        </>
+        </div>
     );
 }
 
 export default App;
 
-{/*                         References
+{/*             References
 
 https://www.youtube.com/watch?v=cDwa_JwuC-w
 https://www.youtube.com/watch?v=I2UBjN5ER4s&t=2562s
 https://www.youtube.com/watch?v=IGzhnFDcSsw
+
+This site was developed on a template provided by briancodex, https://github.com/briancodex
 */}

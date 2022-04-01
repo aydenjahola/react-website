@@ -10,9 +10,9 @@ export default function About() {
     return (
         <>
             <div class="header">
-                <img src="images/about.jpg" alt="Flying Kites" className="header-image" />
+                <img src="images/header.png" alt="About Us" className="header-image" />
                 <div class="header-text">
-                    <h1>About Us</h1>
+                    <h1 style={{ color: "red" }}>About Us</h1>
                 </div>
             </div>
             <div id="about-redbrick">

@@ -1,9 +1,10 @@
 import React from 'react';
 import '../App.css';
 import { Button } from './Button';
-import './HeroSection.css';
+import './HomeSection.css';
 
-function HeroSection() {
+/*Header of homepage, displays video along with text on it*/
+function HomeSection() {
     return (
         <div class="video-container">
             <video autoPlay muted loop>
@@ -25,4 +26,4 @@ function HeroSection() {
     );
 }
 
-export default HeroSection;
+export default HomeSection;

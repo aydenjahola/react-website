@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './Gallery.css';
 import CloseIcon from '@material-ui/icons/Close';
 
-
+/* Stores photos in the form of multiple dicts in arrays, expands on that when clicked. Gallery is meant to have mosaic property but fails to work on mozilla, I believe its missing some -moz element */
 const Gallery = () => {
     let data = [
         {
@@ -48,9 +48,9 @@ const Gallery = () => {
     return (
         <>
             <div class="header">
-                <img src="images/gallery-header.jpg" alt="Flying Kites" className="header-image" />
+                <img src="images/header.png" alt="About Us" className="header-image" />
                 <div class="header-text">
-                    <h1>Gallery</h1>
+                    <h1 style={{ color: "red" }}>Gallery</h1>
                 </div>
             </div>
             <p class="content-title">Gallery</p>
