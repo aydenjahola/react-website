@@ -6,9 +6,9 @@ export default function Services() {
     return (
         <div id="services">
             <div class="header">
-                <img src="images/header.png" alt="About Us" className="header-image" />
+                <img src="images/services.jpg" alt="Flying Kites" className="header-image" />
                 <div class="header-text">
-                    <h1 style={{ color: "red" }}>Services</h1>
+                    <h1>Services</h1>
                 </div>
             </div>
 

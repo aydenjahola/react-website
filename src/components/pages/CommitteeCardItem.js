@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-/* Function template for the committee cards */
 function CommitteeCardItem(props) {
     return (
         <>

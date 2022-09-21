@@ -5,9 +5,9 @@ export default function Contact() {
     return (
         <div id="services">
             <div class="header">
-                <img src="images/header.png" alt="About Us" className="header-image" />
+                <img src="images/contact.jpg" alt="Flying Kites" className="header-image" />
                 <div class="header-text">
-                    <h1 style={{ color: "red" }}>Contact</h1>
+                    <h1>Contact Us</h1>
                 </div>
             </div>
 

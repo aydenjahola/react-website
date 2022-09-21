@@ -1,7 +1,6 @@
 import React from 'react';
 import './Events.css';
 
-/* Events sectionof homepage - dont ask me why I broke the sections up of homepage */
 function Events() {
     return (
         <div id="welcome">

@@ -2,7 +2,6 @@ import React from 'react';
 import './CommitteeCards.css';
 import CommitteeCardItem from './CommitteeCardItem.js';
 
-/* Extension of CommitteeCardItems with required information displayed in them */
 function CommitteeCards() {
     return (
         <div className='committee__cards__container'>

@@ -2,7 +2,6 @@ import React from 'react';
 import './Cards.css';
 import CardItem from './CardItem';
 
-/*Function that extends on CardItem to display the cards with required info*/
 function Cards() {
     return (
         <div className='cards'>

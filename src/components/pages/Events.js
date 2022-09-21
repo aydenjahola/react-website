@@ -1,16 +1,14 @@
 import React from 'react';
 import './Events.css';
 
-
-/* Events tab with static tables for events, was meant to be manually edited by events officers but they never did */
 export default function Events() {
 
     return (
         <>
             <div class="header">
-                <img src="images/header.png" alt="About Us" className="header-image" />
+                <img src="images/image2.jpg" alt="Flying Kites" className="header-image" />
                 <div class="header-text">
-                    <h1 style={{ color: "red" }}>Events</h1>
+                    <h1>Events</h1>
                 </div>
             </div>
             <div id="about-redbrick">

@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 import './Navbar.css';
 import { Icon } from '@iconify/react';
 
-/* Navbar with functionality to convert into a hamburger on certain sizes */
 function Navbar() {
     const [click, setClick] = useState(false);
     const [button, setButton] = useState(true);

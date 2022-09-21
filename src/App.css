@@ -23,17 +23,14 @@ span {
 }
 
 .container {
-    position: fixed;
-    bottom: 3%;
-    right: 2%;
-    width: auto;
-    display: flex;
-    justify-content: space-between;
-    z-index: 99999;
+  display: flex;
+  justify-content: right;
+  margin-right: 10%;
 }
 
 .switch {
   position: relative;
+  display: inline-block;
   width: 60px;
   height: 14px;
 }
@@ -67,7 +64,6 @@ span {
   background-color: #ccc;
   -webkit-transition: .4s;
   transition: .4s;
-  
 }
 
 .slider:before {
@@ -109,10 +105,6 @@ input:checked + .slider:before {
 }
 
 
-/*==========================================================================================
-                                    Header Div
-==========================================================================================*/
-
 .header{
     position: relative;
     display: inline-block; /* Make the width of box same as image */
@@ -128,13 +120,13 @@ input:checked + .slider:before {
     position: absolute;
     left: 0;
     right: 0;
-    top: 20%;
+    top: 40%;
     margin: 0 auto;
     text-align: center;
     width: 60%; /* Set the width of the positioned div */
     font-family: 'Angas', sans-serif;
     font-size: 3rem;
-    color: rgb(255, 116, 116)
+    color: rgb(221, 109, 109);   
 }
 
 @media screen and (max-width: 960px) {
@@ -145,14 +137,14 @@ input:checked + .slider:before {
 
     .header .header-text {
         margin: 0 auto;
-        left: 10%;
+        left: 0;
         right: 0;
-        top: 20%; /* Adjust this value to move the positioned div up and down */
+        top: 40%; /* Adjust this value to move the positioned div up and down */
         text-align: center;
         width: 60%; /* Set the width of the positioned div */
         font-family: 'Angas', sans-serif;
         font-size: 1rem;
-        color: rgb(255, 255, 255);    
+        color: rgb(221, 109, 109);   
     }
 }
 
@@ -162,12 +154,13 @@ input:checked + .slider:before {
     color: rgb(221, 109, 109);
     text-align: center;
     margin: 0px 0px 30px;
+    margin-top: 5%;
 }
 
 @media screen and (max-width: 960px) {
     .content-title
     {
-        font: normal normal normal 2rem helvetica-w01-bold,helvetica-w02-bold,helvetica-lt-w10-bold,sans-serif;
+        font: normal normal normal 3rem helvetica-w01-bold,helvetica-w02-bold,helvetica-lt-w10-bold,sans-serif;
         color: rgb(221, 109, 109);
         text-align: center;
         margin: 0px 0px 30px;
@@ -193,7 +186,7 @@ input:checked + .slider:before {
         margin-left: 1rem;
         margin-right: 1rem;
         margin-bottom: 5%;
-        font-size: 1.1rem;
+        font-size: 1.3rem;
     }
 }
 
@@ -260,7 +253,6 @@ input:checked + .slider:before {
     }
 }
 
-/*Styling for the links*/
 .redirect-link {
     font-family: 'Source Sans Pro';
 	position: relative;

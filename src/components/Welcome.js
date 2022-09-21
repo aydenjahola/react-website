@@ -4,7 +4,7 @@ import './Welcome.css';
 function Welcome() {
     return (
         <div id="welcome">
-            <br /><br />
+
             <p class="content-title">WELCOME</p>
             <hr class="full"></hr><br />
             <p class="content-text">This website is a collection of all you need to know about Redbrick<br /> - from Events to the Services we offer!<br></br>
