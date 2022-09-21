@@ -10,31 +10,31 @@ function CommitteeCards() {
                     <CommitteeCardItem
                         src='images/default.png'
                         text='Chairperson'
-                        label='Cian Kehoe'
+                        label='Amy Collins'
                         path='/contact'
                     />
                     <CommitteeCardItem
-                        src='images/cliodhna.png'
+                        src='images/default.png'
                         text='Vice-Chairperson'
-                        label='Cliodhna Harrison'
+                        label=''
                         path='/contact'
                     />
                     <CommitteeCardItem
-                        src='images/denis.png'
+                        src='images/default.png'
                         text='Secretary'
-                        label='Denis Flore'
+                        label='Om Dighe'
                         path='/contact'
                     />
                 </ul>
                 <ul className='cards__items'>
                     <CommitteeCardItem
-                        src='images/malachy.png'
+                        src='images/default.png'
                         text='SysAdmin'
                         label='Malachy Byrne'
                         path='/contact'
                     />
                     <CommitteeCardItem
-                        src='images/james.png'
+                        src='images/default.png'
                         text='SysAdmin'
                         label='James Hackett'
                         path='/contact'
@@ -42,54 +42,53 @@ function CommitteeCards() {
                     <CommitteeCardItem
                         src='images/default.png'
                         text='SysAdmin'
-                        label='None'
+                        label='Conor Joyce'
                         path='/contact'
                     />
                 </ul>
-
                 <ul className='committee__cards__items'>
                     <CommitteeCardItem
-                        src='images/andreea.png'
+                        src='images/default.png'
                         text='Events Officer'
-                        label='Andreea Rete'
+                        label='Jed Hazamyeh'
                         path='/contact'
                     />
                     <CommitteeCardItem
                         src='images/default.png'
                         text='Events Officer'
-                        label='Amy Collins'
+                        label='Chee Hin Choa'
                         path='/contact'
                     />
                     <CommitteeCardItem
                         src='images/default.png'
                         text='First Year Rep.'
-                        label='Lia'
+                        label=''
                         path='/contact'
                     />
                 </ul>
                 <ul className='cards__items'>
                     <CommitteeCardItem
-                        src='images/magic.png'
+                        src='images/default.png'
                         text='Treasurer'
-                        label='Maciej'
+                        label='Gordon Chi'
                         path='/contact'
                     />
                     <CommitteeCardItem
                         src='images/default.png'
-                        text='PRO'
-                        label='Ethan'
+                        text='GDO'
+                        label='Anushree Umak'
                         path='/contact'
                     />
                     <CommitteeCardItem
                         src='images/default.png'
                         text='Webmaster'
-                        label='Rahul'
+                        label=''
                         path='/contact'
                     />
                 </ul>
                 <ul className='committee__cards__items'>
                     <CommitteeCardItem
-                        src='images/aidan.png'
+                        src='images/default.png'
                         text='Helpdesk'
                         label='Aidan Smith'
                         path='/contact'
@@ -97,13 +96,13 @@ function CommitteeCards() {
                     <CommitteeCardItem
                         src='images/default.png'
                         text='Helpdesk'
-                        label='Ryan Mc Quillan'
+                        label='Malavika Shanker'
                         path='/contact'
                     />
-                    <CommitteeCardItem
+              	    <CommitteeCardItem
                         src='images/default.png'
                         text='Ordinary Member'
-                        label='Leo Collins'
+                        label='Andreea Rete'
                         path='/contact'
                     />
                 </ul>
