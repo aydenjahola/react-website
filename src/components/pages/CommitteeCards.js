@@ -16,7 +16,7 @@ function CommitteeCards() {
                     <CommitteeCardItem
                         src='images/default.png'
                         text='Vice-Chairperson'
-                        label=''
+                        label='Andreea Rete'
                         path='/contact'
                     />
                     <CommitteeCardItem
@@ -46,11 +46,31 @@ function CommitteeCards() {
                         path='/contact'
                     />
                 </ul>
+                <ul className='cards__items'>
+                    <CommitteeCardItem
+                        src='images/default.png'
+                        text='Treasurer'
+                        label='Gordon Chi'
+                        path='/contact'
+                    />
+                    <CommitteeCardItem
+                        src='images/default.png'
+                        text='Webmaster'
+                        label='Jed Hazaymeh'
+                        path='/contact'
+                    />
+                    <CommitteeCardItem
+                        src='images/default.png'
+                        text='GDO'
+                        label='Anushree Umak'
+                        path='/contact'
+                    />
+                </ul>
                 <ul className='committee__cards__items'>
                     <CommitteeCardItem
                         src='images/default.png'
                         text='Events Officer'
-                        label='Jed Hazamyeh'
+                        label='Abhijit Mahal'
                         path='/contact'
                     />
                     <CommitteeCardItem
@@ -62,27 +82,7 @@ function CommitteeCards() {
                     <CommitteeCardItem
                         src='images/default.png'
                         text='First Year Rep.'
-                        label=''
-                        path='/contact'
-                    />
-                </ul>
-                <ul className='cards__items'>
-                    <CommitteeCardItem
-                        src='images/default.png'
-                        text='Treasurer'
-                        label='Gordon Chi'
-                        path='/contact'
-                    />
-                    <CommitteeCardItem
-                        src='images/default.png'
-                        text='GDO'
-                        label='Anushree Umak'
-                        path='/contact'
-                    />
-                    <CommitteeCardItem
-                        src='images/default.png'
-                        text='Webmaster'
-                        label=''
+                        label='Dominic Michael Connor'
                         path='/contact'
                     />
                 </ul>
@@ -102,7 +102,15 @@ function CommitteeCards() {
               	    <CommitteeCardItem
                         src='images/default.png'
                         text='Ordinary Member'
-                        label='Andreea Rete'
+                        label='Leo Collins'
+                        path='/contact'
+                    />
+                </ul>
+                <ul className='committee__cards__items'>
+                    <CommitteeCardItem
+                        src='images/default.png'
+                        text='Ordinary Member'
+                        label='Alexandru Dorofte'
                         path='/contact'
                     />
                 </ul>
