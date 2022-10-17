@@ -105,8 +105,6 @@ function CommitteeCards() {
                         label='Leo Collins'
                         path='/contact'
                     />
-                </ul>
-                <ul className='committee__cards__items'>
                     <CommitteeCardItem
                         src='images/default.png'
                         text='Ordinary Member'
