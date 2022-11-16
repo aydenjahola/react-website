@@ -68,6 +68,12 @@ function CommitteeCards() {
                 </ul>
                 <ul className='committee__cards__items'>
                     <CommitteeCardItem
+                        src='images/committee/ishita.jpg'
+                        text='PRO'
+                        label='Ishita Gupta'
+                        path='/contact'
+                    />
+                    <CommitteeCardItem
                         src='images/committee/abhijit.jpg'
                         text='Events Officer'
                         label='Abhijit Mahal'
