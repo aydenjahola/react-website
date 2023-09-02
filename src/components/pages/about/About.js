@@ -1,9 +1,9 @@
 import React from 'react';
 import './About.css';
-import '../Cards.css';
-import CardItem from '../CardItem';
+import '../../Cards.css';
+import CardItem from '../../CardItem';
 import { Link } from 'react-router-dom';
-import CommitteeCards from './CommitteeCards';
+import CommitteeCards from '../../committee/CommitteeCards';
 
 export default function About() {
 

@@ -105,7 +105,7 @@ function CommitteeCards() {
                         label='Malavika Shanker'
                         path='/contact'
                     />
-              	    <CommitteeCardItem
+                    <CommitteeCardItem
                         src='images/committee/leo.jpg'
                         text='Ordinary Member'
                         label='Leo Collins'
