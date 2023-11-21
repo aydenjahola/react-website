@@ -87,7 +87,7 @@ function CommitteeCards() {
             <CommitteeCardItem
               src='images/committee/stefania.jpg'
               text='Events Officer'
-              label='Stefania'
+              label='Stefania Ogun'
               path='/contact'
             />
             <CommitteeCardItem
