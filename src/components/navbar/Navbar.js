@@ -75,16 +75,6 @@ function Navbar() {
             </li>
             <li className='nav-item'>
               <Link
-                to='/events'
-                className='nav-links'
-                onClick={closeMobileMenu}
-              >
-                Events
-              </Link>
-            </li>
-
-            <li className='nav-item'>
-              <Link
                 to='/services'
                 className='nav-links'
                 onClick={closeMobileMenu}
@@ -92,7 +82,6 @@ function Navbar() {
                 Services
               </Link>
             </li>
-
             <li className='nav-item'>
               <Link
                 to='/contact'
@@ -102,7 +91,6 @@ function Navbar() {
                 Contact
               </Link>
             </li>
-
             <li className='nav-item'>
               <Link
                 to='/emergency'
@@ -112,7 +100,6 @@ function Navbar() {
                 Emergency
               </Link>
             </li>
-
             <li>
               <a
                 href='https://dcuclubsandsocs.ie/society/redbrick'

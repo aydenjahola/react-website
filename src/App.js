@@ -10,7 +10,6 @@ import {
 import Services from './components/pages/services/Services'
 import Contact from './components/pages/contact/Contact'
 import About from './components/pages/about/About'
-import Events from './components/pages/events/Events'
 import Join from './components/pages/join/Join'
 import Footer from './components/footer/Footer'
 import Gallery from './components/pages/gallery/Gallery'
@@ -43,7 +42,6 @@ function App() {
           <Route path='/' exact component={Home} />
           <Route path='/about' component={About} />
           <Route path='/gallery' component={Gallery} />
-          <Route path='/events' component={Events} />
           <Route path='/services' component={Services} />
           <Route path='/contact' component={Contact} />
           <Route path='/emergency' component={Emergency} />
@@ -56,12 +54,3 @@ function App() {
 }
 
 export default App
-
-{
-  /*                         References
-
-https://www.youtube.com/watch?v=cDwa_JwuC-w
-https://www.youtube.com/watch?v=I2UBjN5ER4s&t=2562s
-https://www.youtube.com/watch?v=IGzhnFDcSsw
-*/
-}

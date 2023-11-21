@@ -1,22 +1,24 @@
-import React from 'react';
-import '../../../App.css';
-import Cards from '../../Cards';
-import HeroSection from './HeroSection';
-import Footer from '../../footer/Footer';
-import Welcome from './Welcome';
-import Events from '../events/Events';
-import Navbar from '../../navbar/Navbar';
+import React from 'react'
+import '../../../App.css'
+import Services from '../../Services'
+import Events from '../../Events'
+import HeroSection from './HeroSection'
+import Welcome from './Welcome'
+import CommitteeCards from '../../committee/CommitteeCards'
 
 function Home() {
-    return (
-        <>
-            <HeroSection />
-            <Welcome />
-            <Cards />
-            <Events />
-            <br /><br /><br />
-        </>
-    );
+  return (
+    <>
+      <HeroSection />
+      <Welcome />
+      <Events />
+      <Services />
+      <CommitteeCards />
+      <br />
+      <br />
+      <br />
+    </>
+  )
 }
 
-export default Home;
+export default Home
