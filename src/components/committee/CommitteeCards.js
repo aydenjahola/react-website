@@ -117,7 +117,7 @@ function CommitteeCards() {
               path='/contact'
             />
             <CommitteeCardItem
-              src='images/committee/daniel.jpg'
+              src='images/committee/daniel.png'
               text='Ordinary Member'
               label='Daniel McEntee'
               path='/contact'
